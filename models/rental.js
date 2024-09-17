@@ -16,6 +16,7 @@ const rentalSchema = new mongoose.Schema({
         default: false
       },
       phone: {
+        
         type: String,
         required: true,
         minlength: 5,

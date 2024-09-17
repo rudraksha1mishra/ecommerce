@@ -9,6 +9,7 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   const genres = await Genre.find()
     .select("-__v")
+    
     .sort("name");
   res.send(genres);
 });

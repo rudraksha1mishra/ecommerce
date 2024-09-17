@@ -7,6 +7,7 @@ const Customer = mongoose.model('Customer', new mongoose.Schema({
     required: true,
     minlength: 5,
     maxlength: 50
+    
   },
   isGold: {
     type: Boolean,

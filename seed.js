@@ -38,6 +38,7 @@ const data = [
   }
 ];
 
+
 async function seed() {
   await mongoose.connect(config.get("db"));
 

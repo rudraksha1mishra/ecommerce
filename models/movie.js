@@ -10,6 +10,7 @@ const Movie = mongoose.model('Movies', new mongoose.Schema({
     minlength: 5,
     maxlength: 255
   },
+  
   genre: { 
     type: genreSchema,  
     required: true

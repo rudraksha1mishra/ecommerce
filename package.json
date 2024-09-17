@@ -1,13 +1,14 @@
 {
   "name": "vidly",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is the backend of Vidly, an imaginary video rental app. I've used Vidly as an example in several of my online programming courses, such as:",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "seed": "node seed.js",
     "test": "jest --watchAll --verbose"
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -30,5 +31,16 @@
   "devDependencies": {
     "jest": "^22.2.2",
     "supertest": "^3.0.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mosh-hamedani/vidly-api-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mosh-hamedani/vidly-api-node/issues"
+  },
+  "homepage": "https://github.com/mosh-hamedani/vidly-api-node#readme"
 }
